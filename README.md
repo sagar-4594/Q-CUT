@@ -1,46 +1,61 @@
-Q-CUT – Smart Queue Management System
+# Q-CUT
 
-Q-CUT is a fast and lightweight Queue Management System built with Node.js and Express. It replaces manual queues with digital token management, helping organizations serve customers more efficiently and reduce waiting times.
+Q-CUT is a web-based queue management application designed to reduce waiting time and improve service efficiency. It provides a digital solution for managing queues in service-based environments like salons, clinics, and customer service centers.
 
-🚀 Overview
+## Objective
 
-Q-CUT provides:
+The main goal of Q-CUT is to replace traditional physical queues with a digital queue system, allowing better visibility, faster service flow, and improved customer experience.
 
-A simple and user-friendly interface
+## Features
 
-An admin dashboard to manage tokens
+- Digital queue management system
+- Real-time queue status
+- Simple and user-friendly interface
+- Reduces overcrowding and waiting time
+- Efficient service flow management
 
-Real-time queue updates
+## Tech Stack
 
-A clean and modular backend using Express + EJS
+- Frontend: HTML, CSS, JavaScript, EJS
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Version Control: Git, GitHub
 
-Users can generate tokens, and admins can track and control the queue with ease.
+## Project Structure
 
-✨ Features
+- views/ – EJS templates
+- partials/ – Reusable components
+- public/ – Static files (CSS, images, JS)
+- index.js – Main server file
 
-🔐 User & Admin Login
+## Installation & Run
 
-🎟 Digital Token Generation
+1. Clone the repository
+   git clone <repository-url>
 
-📊 Admin Queue Dashboard
+2. Go to the project folder
+   cd Q-CUT
 
-🎨 Clean and Responsive UI
+3. Install dependencies
+   npm install
 
-⚡ Lightweight Express Backend
+4. Start the server
+   node index.js
 
-🧩 Modular, Maintainable Architecture
+5. Open browser and visit
+   http://localhost:8000
 
-🧰 Tech Stack
+## Use Case
 
-Node.js
+Q-CUT can be used in any service-based business where customers wait in queues. It helps businesses manage customers efficiently while providing a better experience.
 
-Express.js
+## Future Scope
 
-EJS
+- User authentication
+- Admin dashboard
+- Notification system
+- Mobile-friendly UI
 
-HTML, CSS, JavaScript
+## Author
 
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to open a pull request or report issues in the repository.
+Nenavath Sagar
